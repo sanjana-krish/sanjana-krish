@@ -63,6 +63,8 @@ a:hover {
 
 .card-img-top {
   border-radius: 1rem 1rem 0 0;
+  object-fit: cover;
+  height: calc(50px + 20vw);
 }
 /* 
 .h-100 {
