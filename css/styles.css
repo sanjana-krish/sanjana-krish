@@ -66,6 +66,11 @@ a:hover {
   object-fit: cover;
   height: calc(50px + 20vw);
 }
+
+.no-b-radius {
+  border-bottom-right-radius: 0!important;
+  border-bottom-left-radius: 0!important;
+}
 /* 
 .h-100 {
   border-radius: 25px 25px 25px 25px;
