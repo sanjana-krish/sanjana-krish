@@ -3,13 +3,29 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
  */
-
+:root {
+  --lite: #92989e;
+  --dark: #32373c;
+  --darker: #1a1e20;
+}
 body {
   /* apply custom rules to the body here */
 }
 
 header {
-  padding: 154px 0 100px;
+  padding: 120px 0 140px;
+}
+
+.bg-dark {
+  background-color: var(--dark);
+}
+
+.bg-darker {
+  background-color: var(--darker);
+}
+
+.bg-lite {
+  background-color: var(--lite);
 }
 
 a {
@@ -25,7 +41,7 @@ a:hover {
 /* media query when the media is wider than 992px */
 @media (min-width: 992px) {
   header {
-    padding: 156px 0 100px;
+    padding: 120px 0 140px;
     background-color: black;
   }
 }
@@ -46,9 +62,16 @@ a:hover {
 }
 
 .card-img-top {
-  border-radius: 25px 25px 0px 0px;
+  border-radius: 1rem 1rem 0 0;
+  object-fit: cover;
+  height: calc(50px + 20vw);
 }
 
+.no-b-radius {
+  border-bottom-right-radius: 0!important;
+  border-bottom-left-radius: 0!important;
+}
+/* 
 .h-100 {
   border-radius: 25px 25px 25px 25px;
   border-color: grey;
@@ -57,22 +80,22 @@ a:hover {
 
 .card-body {
   border-radius: 0px 0px 25px 25px;
-}
+} */
 
-.text-white {background-color: black;}
+/* .text-white {background-color: black;} */
 
 section {
   padding: 80px 0;
-  background-color:black;
+  /* background-color:black; */
 }
 
-div {
+/* div {
   background-color:black;
 }
 
 p {
   color: white;
-}
+} */
 
 dt {color: #DC3958;}
 dd {color:lightgrey;}
