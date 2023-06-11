@@ -30,8 +30,10 @@ header {
 
 a {
   /*color: #00AA00;
-  color: #DC3958; */
-  color: #F79A32;
+  color: #DC3958; 
+  color: #F79A32; */
+  color: bisque;
+  text-decoration: none; 
 }
 
 a:hover {
@@ -46,13 +48,25 @@ a:hover {
   }
 }
 
+ul {
+  padding: 0;
+  margin-left: 1.5em;
+  font-size: 15px;
+  color: whitesmoke;
+}
+
+h3 {
+  padding: 0.25em;
+  font-size: 20px;
+}
+
 .rounded-circle {
   width:200px;
   height:200px;
 }
 
 .bg-projects {
-  background-color: grey;
+  background-color: #000005;
 }
 
 .portfolio-item {
@@ -85,17 +99,17 @@ a:hover {
 /* .text-white {background-color: black;} */
 
 section {
-  padding: 80px 0;
+  padding: 40px 0;
   /* background-color:black; */
 }
 
 /* div {
   background-color:black;
 }
-
+*/
 p {
-  color: white;
-} */
+  color: whitesmoke;
+}
 
 dt {color: #DC3958;}
 dd {color:lightgrey;}
